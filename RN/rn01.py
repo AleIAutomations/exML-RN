@@ -38,3 +38,9 @@ print(f"Pesos Aprendidos: {weights}, Viés: {bias}")
 for x_input in X:
     pred = 1 if (np.dot(x_input, weights) + bias) >= 0 else 0
     print(f"Entrada: {x_input} -> Saída Prevista: {pred}")
+
+
+# Explicação Didática da Lógica e Palavras-Chave:Soma Ponderada: $z = (w_1 \cdot x_1 + w_2 \cdot x_2) + b$. 
+# Multiplica-se cada entrada pelo seu peso respectivo e soma-se o viés.Ativação Degrau: Retorna 1 se o valor da soma 
+# linear for maior ou igual a zero, e 0 caso contrário.Regra do Perceptron: Se a previsão estiver correta (error = 0), 
+# nenhum parâmetro muda. Se estiver incorreta, atualiza-se a direção do vetor de pesos.

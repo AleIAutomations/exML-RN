@@ -65,7 +65,11 @@ plt.grid(True)
 plt.show()
 
 
-
+# np.array: Cria arranjos numéricos multidimensionais do NumPy com alta performance.w (Weight / Peso) e b (Bias / Viés): 
+# São as variáveis aprendíveis da reta ($y = w \cdot x + b$). O peso define a inclinação e o viés ajusta a altura onde 
+# a reta cruza o eixo Y.learning_rate: Controla o tamanho do ajuste feito nos pesos em cada passo 
+# da otimização.error = y_pred - y: Calcula a diferença entre a resposta prevista e o valor real.dw e db: 
+# Representam os gradientes (derivadas) que indicam em qual direção e intensidade devemos ajustar $w$ e $b$ para diminuir o erro.
 
 
 
