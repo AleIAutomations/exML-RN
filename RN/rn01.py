@@ -7,7 +7,6 @@ y = np.array([0, 0, 0, 1])
 
 # 2. Inicialização do Perceptron
 weights = np.random.randn(2)
-WindowsError
 bias = 0.0
 lr = 0.1
 epochs = 20
