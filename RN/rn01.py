@@ -1,3 +1,9 @@
+# O Perceptron de Rosenblatt (Porta Lógica AND)
+# Você está construindo o componente lógico fundamental para um novo processador
+# Implementar a menor unidade de uma rede neural: o Perceptron de camada única, ensinando-o a resolver a 
+# tabela verdade da operação lógica
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
