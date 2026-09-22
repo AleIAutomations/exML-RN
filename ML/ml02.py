@@ -13,7 +13,7 @@ def sigmoid(z):
 w = 0.0
 b = 0.0
 lr = 0.5
-epochs = 500
+epochs = 50000
 
 for epochs in range(epochs):
     z = w * x + b
